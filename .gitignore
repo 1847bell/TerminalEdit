@@ -1,0 +1,24 @@
+# Build and publish output
+bin/
+obj/
+artifacts/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.exe
+*.dll
+*.pdb
+*.zip
+*.nupkg
+
+# Local IDE and agent state
+.vs/
+.planning/
+.codegraph/
+
+# Local secrets (keep shareable examples)
+.env
+.env.*
+!.env.example
+!.env.sample
